@@ -10,8 +10,7 @@ for more info regarding list comprehensions.
 
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
-y = []
-
+y = [num for num in range(6) if num != 0]
 print (y)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
