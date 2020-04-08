@@ -25,3 +25,10 @@ print(load_foo())
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+
+def bar_file():
+    text_file = open('bar.txt', 'w')
+    text_file.write('line 1 \nline 2 \nline 3')
+    text_file.close()
+
+bar_file()
